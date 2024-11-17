@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-white">
-    <input type="color" name="background-color" id="background-color" value="#ffffff" class="block p-1 bg-white border border-gray-200 cursor-pointer rounded-lg w-10 h-10 fixed top-4 left-4 shadow-md" />
+    <div class="fixed top-4 left-4 p-2 shadow-md bg-[rgba(255,255,255,0.5)] w-60 rounded-lg">
+      <div class="flex justify-start gap-2">
+        <input type="color" name="background-color" id="background-color" value="#ffffff" class="block p-1 bg-white border border-gray-200 cursor-pointer rounded-lg w-10 h-10" />
+        <ul id="color-list" class="text-sm">
+          <li>HEX: <span id="hex-color">#ffffff</span></li>
+          <li>RGB: <span id="rgb-color">255, 255, 255</span></li>
+        </ul>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

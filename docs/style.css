@@ -514,14 +514,26 @@ video {
 .block {
   display: block;
 }
+.flex {
+  display: flex;
+}
 .h-10 {
   height: 2.5rem;
 }
 .w-10 {
   width: 2.5rem;
 }
+.w-60 {
+  width: 15rem;
+}
 .cursor-pointer {
   cursor: pointer;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -533,12 +545,22 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
+.bg-\[rgba\(255\2c 255\2c 255\2c 0\.5\)\] {
+  background-color: rgba(255,255,255,0.5);
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 .p-1 {
   padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
