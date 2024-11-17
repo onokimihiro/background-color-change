@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   backgroundColorChange: () => (/* binding */ backgroundColorChange)\n/* harmony export */ });\nfunction backgroundColorChange() {\n    // 要素を取得\n    const color = document.getElementById('background-color');\n    color.addEventListener('input', () => {\n        console.log(color.value);\n        return (document.body.style.backgroundColor = color.value);\n    });\n}\n\n\n//# sourceURL=webpack:///./src/backgroundColorChange.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   backgroundColorChange: () => (/* binding */ backgroundColorChange)\n/* harmony export */ });\nfunction backgroundColorChange() {\n    // 要素を取得\n    const color = document.getElementById('background-color');\n    color.addEventListener('input', () => {\n        return (document.body.style.backgroundColor = color.value);\n    });\n}\n\n\n//# sourceURL=webpack:///./src/backgroundColorChange.ts?");
 
 /***/ }),
 

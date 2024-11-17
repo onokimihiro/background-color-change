@@ -546,7 +546,9 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+html,
 body {
-  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 

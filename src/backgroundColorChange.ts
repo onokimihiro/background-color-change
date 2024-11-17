@@ -3,7 +3,6 @@ export function backgroundColorChange() {
   const color = document.getElementById('background-color') as HTMLInputElement;
 
   color.addEventListener('input', () => {
-    console.log(color.value);
     return (document.body.style.backgroundColor = color.value);
   });
 }
