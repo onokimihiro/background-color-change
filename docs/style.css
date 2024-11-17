@@ -545,12 +545,12 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
-.bg-\[255\2c 255\2c 255\2c 0\.5\] {
-  background-color: 255,255,255,0.5;
-}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
 }
 .p-1 {
   padding: 0.25rem;
